@@ -1,0 +1,80 @@
+#sidebar {
+    background: #fff;
+    padding: 10px;
+}
+
+.pagination {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    background-color: #cccccc;
+
+    text-align: right;
+}
+
+.pagination a {
+    text-decoration: none;
+}
+
+.pagination .current {
+    background-color: #404040;
+    color: #fff;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.lastPosts ul {
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+}
+
+.lastPosts li {
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid #003d4c;
+    padding: 5px;
+}
+
+.lastPosts li:nth-child(even) {
+	background: #e6e6e6;
+}
+
+.post .info {
+    background: #cccccc;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.posts .post {
+    border: 1px solid #000000;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.posts h3, .posts p, .posts .info {
+    margin-bottom: 5px;
+}
+
+.posts .post:nth-child(even) {
+    background: #e6e6e6;
+}
+
+.posts .info {
+    padding: 2px;
+    background: transparent;
+}
+
+.post .more {
+    text-align: right;
+}
+
+#userInfo {
+    background: #e6e6e6;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 5px;
+    text-align: right;
+
+    color: #000;
+}

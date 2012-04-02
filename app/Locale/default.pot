@@ -1,0 +1,205 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-12-09 14:18+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \app\Controller\PostsController.php:54
+msgid "Invalid page number %s"
+msgstr ""
+
+#: \app\Controller\PostsController.php:68;92;129;150
+msgid "Invalid post"
+msgstr ""
+
+#: \app\Controller\PostsController.php:113
+msgid "The post has been saved"
+msgstr ""
+
+#: \app\Controller\PostsController.php:116
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: \app\Controller\PostsController.php:153
+msgid "Post deleted"
+msgstr ""
+
+#: \app\Controller\PostsController.php:156
+msgid "Post was not deleted"
+msgstr ""
+
+#: \app\Controller\UsersController.php:18
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: \app\Locale\Strings.php:5
+msgid "Username"
+msgstr ""
+
+#: \app\Locale\Strings.php:6
+msgid "Password"
+msgstr ""
+
+#: \app\Locale\Strings.php:7
+msgid "notempty"
+msgstr ""
+
+#: \app\Locale\Strings.php:8
+msgid "maxlength"
+msgstr ""
+
+#: \app\View\Elements\postForm.ctp:22
+msgid "Submit"
+msgstr ""
+
+#: \app\View\Layouts\admin.ctp:19
+#: \app\View\Layouts\default.ctp:19
+msgid "Blog"
+msgstr ""
+
+#: \app\View\Layouts\admin.ctp:19
+msgid "Admin Panel"
+msgstr ""
+
+#: \app\View\Layouts\admin.ctp:49
+msgid "Logged in as: <strong>%s</strong>"
+msgstr ""
+
+#: \app\View\Layouts\admin.ctp:50
+msgid "Log out"
+msgstr ""
+
+#: \app\View\Posts\admin_add.ctp:1
+msgid "Admin Add Post"
+msgstr ""
+
+#: \app\View\Posts\admin_add.ctp:4
+#: \app\View\Posts\admin_edit.ctp:4
+#: \app\View\Posts\admin_index.ctp:7;39
+#: \app\View\Posts\admin_view.ctp:36
+msgid "Actions"
+msgstr ""
+
+#: \app\View\Posts\admin_add.ctp:6
+#: \app\View\Posts\admin_edit.ctp:8
+#: \app\View\Posts\admin_view.ctp:40
+msgid "List Posts"
+msgstr ""
+
+#: \app\View\Posts\admin_edit.ctp:1
+msgid "Admin Edit Post"
+msgstr ""
+
+#: \app\View\Posts\admin_edit.ctp:7
+#: \app\View\Posts\admin_index.ctp:18
+msgid "Delete"
+msgstr ""
+
+#: \app\View\Posts\admin_edit.ctp:7
+#: \app\View\Posts\admin_index.ctp:18
+#: \app\View\Posts\admin_view.ctp:39
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: \app\View\Posts\admin_index.ctp:2
+msgid "Posts"
+msgstr ""
+
+#: \app\View\Posts\admin_index.ctp:16
+msgid "View"
+msgstr ""
+
+#: \app\View\Posts\admin_index.ctp:17
+msgid "Edit"
+msgstr ""
+
+#: \app\View\Posts\admin_index.ctp:26
+#: \app\View\Posts\index.ctp:23
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: \app\View\Posts\admin_index.ctp:32
+#: \app\View\Posts\index.ctp:30
+msgid "previous"
+msgstr ""
+
+#: \app\View\Posts\admin_index.ctp:34
+#: \app\View\Posts\index.ctp:32
+msgid "next"
+msgstr ""
+
+#: \app\View\Posts\admin_index.ctp:41
+#: \app\View\Posts\admin_view.ctp:41
+msgid "New Post"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:5
+msgid "Post"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:7
+msgid "Id"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:12
+msgid "Title"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:17
+msgid "Intro"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:22
+msgid "Body"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:27
+msgid "Created"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:38
+msgid "Edit Post"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:39
+msgid "Delete Post"
+msgstr ""
+
+#: \app\View\Posts\index.ctp:12
+msgid "Read more"
+msgstr ""
+
+#: \app\View\Posts\view.ctp:6
+msgid "Added on %s"
+msgstr ""
+
+#: \app\View\Posts\view.ctp:12
+msgid "Return to posts list"
+msgstr ""
+
+#: \app\View\Users\admin_login.ctp:5
+msgid "Please enter your username and password"
+msgstr ""
+
+#: \app\View\Users\admin_login.ctp:11
+msgid "Login"
+msgstr ""
+
+#: \lib\Cake\Console\Templates\skel\View\Layouts\default.ctp:24
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: \lib\Cake\Console\Templates\skel\View\Layouts\default.ctp:38;49
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+

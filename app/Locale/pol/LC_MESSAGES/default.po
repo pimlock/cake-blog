@@ -1,0 +1,206 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BLOG\n"
+"POT-Creation-Date: 2011-12-09 14:18+0100\n"
+"PO-Revision-Date: 2011-12-09 14:25+0100\n"
+"Last-Translator: Piotr Młocek\n"
+"Language-Team:  <piotr@mlocek.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: \app\Controller\PostsController.php:54
+msgid "Invalid page number %s"
+msgstr "Niepoprawny numer strony: %s"
+
+#: \app\Controller\PostsController.php:68;92;129;150
+msgid "Invalid post"
+msgstr "Nie istnieje taki wpis"
+
+#: \app\Controller\PostsController.php:113
+msgid "The post has been saved"
+msgstr "Wpis został zapisany"
+
+#: \app\Controller\PostsController.php:116
+msgid "The post could not be saved. Please, try again."
+msgstr "Wpis nie został zapisany. Spróbuj ponownie."
+
+#: \app\Controller\PostsController.php:153
+msgid "Post deleted"
+msgstr "Wpis został usunięty"
+
+#: \app\Controller\PostsController.php:156
+msgid "Post was not deleted"
+msgstr "Wpis nie został usunięty"
+
+#: \app\Controller\UsersController.php:18
+msgid "Invalid username or password, try again"
+msgstr "Niepoprawna nazwa użytkownika lub hasło"
+
+#: \app\Locale\Strings.php:5
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: \app\Locale\Strings.php:6
+msgid "Password"
+msgstr "Hasło"
+
+#: \app\Locale\Strings.php:7
+msgid "notempty"
+msgstr "Pole nie może być puste"
+
+#: \app\Locale\Strings.php:8
+msgid "maxlength"
+msgstr "Maksymalna długość pola (%s) została przekroczona"
+
+#: \app\View\Elements\postForm.ctp:22
+msgid "Submit"
+msgstr "Wyślij"
+
+#: \app\View\Layouts\admin.ctp:19
+#: \app\View\Layouts\default.ctp:19
+msgid "Blog"
+msgstr "Blog"
+
+#: \app\View\Layouts\admin.ctp:19
+msgid "Admin Panel"
+msgstr "Panel administratora"
+
+#: \app\View\Layouts\admin.ctp:49
+msgid "Logged in as: <strong>%s</strong>"
+msgstr "Zalogowany jako: <strong>%s</strong>"
+
+#: \app\View\Layouts\admin.ctp:50
+msgid "Log out"
+msgstr "Wyloguj"
+
+#: \app\View\Posts\admin_add.ctp:1
+msgid "Admin Add Post"
+msgstr "Dodawanie wpisu"
+
+#: \app\View\Posts\admin_add.ctp:4
+#: \app\View\Posts\admin_edit.ctp:4
+#: \app\View\Posts\admin_index.ctp:7;39
+#: \app\View\Posts\admin_view.ctp:36
+msgid "Actions"
+msgstr "Akcje"
+
+#: \app\View\Posts\admin_add.ctp:6
+#: \app\View\Posts\admin_edit.ctp:8
+#: \app\View\Posts\admin_view.ctp:40
+msgid "List Posts"
+msgstr "Lista wpisów"
+
+#: \app\View\Posts\admin_edit.ctp:1
+msgid "Admin Edit Post"
+msgstr "Edycja wpisu"
+
+#: \app\View\Posts\admin_edit.ctp:7
+#: \app\View\Posts\admin_index.ctp:18
+msgid "Delete"
+msgstr "Usuń"
+
+#: \app\View\Posts\admin_edit.ctp:7
+#: \app\View\Posts\admin_index.ctp:18
+#: \app\View\Posts\admin_view.ctp:39
+msgid "Are you sure you want to delete # %s?"
+msgstr "Czy jesteś pewien, że chcesz usunąć # %s?"
+
+#: \app\View\Posts\admin_index.ctp:2
+msgid "Posts"
+msgstr "Wpisy"
+
+#: \app\View\Posts\admin_index.ctp:16
+msgid "View"
+msgstr "Wyświetl"
+
+#: \app\View\Posts\admin_index.ctp:17
+msgid "Edit"
+msgstr "Edytuj"
+
+#: \app\View\Posts\admin_index.ctp:26
+#: \app\View\Posts\index.ctp:23
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Strona {:page} z {:pages}, wyświetlone {:current} rekordów z {:count} (od {:start} do {:end})"
+
+#: \app\View\Posts\admin_index.ctp:32
+#: \app\View\Posts\index.ctp:30
+msgid "previous"
+msgstr "poprzednia"
+
+#: \app\View\Posts\admin_index.ctp:34
+#: \app\View\Posts\index.ctp:32
+msgid "next"
+msgstr "następna"
+
+#: \app\View\Posts\admin_index.ctp:41
+#: \app\View\Posts\admin_view.ctp:41
+msgid "New Post"
+msgstr "Nowy wpis"
+
+#: \app\View\Posts\admin_view.ctp:5
+msgid "Post"
+msgstr "Wpis"
+
+#: \app\View\Posts\admin_view.ctp:7
+msgid "Id"
+msgstr ""
+
+#: \app\View\Posts\admin_view.ctp:12
+msgid "Title"
+msgstr "Tytuł"
+
+#: \app\View\Posts\admin_view.ctp:17
+msgid "Intro"
+msgstr "Zajawka"
+
+#: \app\View\Posts\admin_view.ctp:22
+msgid "Body"
+msgstr "Treść"
+
+#: \app\View\Posts\admin_view.ctp:27
+msgid "Created"
+msgstr "Data dodania"
+
+#: \app\View\Posts\admin_view.ctp:38
+msgid "Edit Post"
+msgstr "Edytuj wpis"
+
+#: \app\View\Posts\admin_view.ctp:39
+msgid "Delete Post"
+msgstr "Usuń wpis"
+
+#: \app\View\Posts\index.ctp:12
+msgid "Read more"
+msgstr "Czytaj dalej"
+
+#: \app\View\Posts\view.ctp:6
+msgid "Added on %s"
+msgstr "Dodany %s"
+
+#: \app\View\Posts\view.ctp:12
+msgid "Return to posts list"
+msgstr "Powrót do listy wpisów"
+
+#: \app\View\Users\admin_login.ctp:5
+msgid "Please enter your username and password"
+msgstr "Wprowadź nazwę użytkownika i hasło"
+
+#: \app\View\Users\admin_login.ctp:11
+msgid "Login"
+msgstr "Zaloguj"
+
+#: \lib\Cake\Console\Templates\skel\View\Layouts\default.ctp:24
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: \lib\Cake\Console\Templates\skel\View\Layouts\default.ctp:38;49
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#~ msgid "Modified"
+#~ msgstr "Data ostatniej zmiany"
